@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fir-foto-52038": {
+      "hosting": {
+        "FotosFirebase": [
+          "fir-foto-52038"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fir-fotos-49177"
+  }
+}

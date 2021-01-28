@@ -1,0 +1,8 @@
+<div class="card-columns fadeIn fast">
+    <div (click)="mostrarImagen( item )" class="card fadeIn fast" *ngFor="let item of items | async;let i of index;">
+        <img [src]="item.url" class="card-img-top fadeIn fast" alt="{{item.nombre}}">
+        <div class="card-body fadeIn fast">
+            <h5 class="card-title fadeIn fast">{{item.nombre}}</h5>
+        </div>
+    </div>
+</div>
